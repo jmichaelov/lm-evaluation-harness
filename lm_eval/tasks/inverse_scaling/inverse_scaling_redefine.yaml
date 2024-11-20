@@ -1,3 +1,5 @@
 include: _inverse_scaling_mc_yaml
 task: inverse_scaling_redefine
 dataset_path: jmichaelov/inverse_scaling_prize-redefine
+metadata:
+  version: 1
