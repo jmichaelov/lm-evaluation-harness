@@ -1,5 +1,6 @@
 include: _inverse_scaling_mc_yaml
 task: inverse_scaling_resisting_correction
 dataset_path: jmichaelov/inverse_scaling_prize-resisting_correction
+test_split: test
 metadata:
   version: 1
