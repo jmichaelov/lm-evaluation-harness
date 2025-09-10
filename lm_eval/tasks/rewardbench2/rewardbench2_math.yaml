@@ -1,0 +1,3 @@
+dataset_name: rewardbench2_math
+include: _template_yaml
+task: rewardbench2_math

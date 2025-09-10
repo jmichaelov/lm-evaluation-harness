@@ -1,0 +1,15 @@
+group: rewardbench2
+task:
+  - rewardbench2_factuality
+  - rewardbench2_preciseif
+  - rewardbench2_math
+  - rewardbench2_safety
+  - rewardbench2_focus
+  - rewardbench2_ties
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
