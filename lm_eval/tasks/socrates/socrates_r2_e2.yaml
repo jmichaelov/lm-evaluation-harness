@@ -1,11 +1,11 @@
 task: socrates_r2_e2
 tag:
   - socrates
-dataset_path: soheeyang/SOCRATES
+dataset_path: jmichaelov/socrates
 output_type: generate_until
 test_split: train
-doc_to_text: "{{'r2(e2).prompt'}}"
-doc_to_target: "{{'e3.aliases'}}"
+doc_to_text: "{{r2_e2_prompt}}"
+doc_to_target: "{{e3_aliases}}"
 generation_kwargs:
   until: []
   temperature: 0.0
