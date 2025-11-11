@@ -1,4 +1,4 @@
-task: socrates_r2_e2
+task: socrates_r1_e1
 tag:
   - socrates
 dataset_path: jmichaelov/socrates
@@ -12,7 +12,7 @@ generation_kwargs:
   do_sample: false
   max_gen_toks: 32
 metric_list:
-  - metric: !function utils.exact_match_e2
+  - metric: !function utils.contains_correct
     aggregation: mean
     higher_is_better: true
 metadata:
