@@ -10,7 +10,7 @@ def exact_match_e2(references, predictions):
 
     match = float(int(bool(re.search(r"|".join(ref), pred, re.IGNORECASE))))
 
-    return {"exact_match": match}
+    return {"exact_match_e2": match}
 
 
 def exact_match_e3(references, predictions):
@@ -22,4 +22,4 @@ def exact_match_e3(references, predictions):
 
     match = float(int(bool(re.search(r"|".join(ref), pred, re.IGNORECASE))))
 
-    return {"exact_match": match}
+    return {"exact_match_e3": match}
