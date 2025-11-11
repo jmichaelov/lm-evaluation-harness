@@ -12,7 +12,7 @@ generation_kwargs:
   do_sample: false
   max_gen_toks: 32
 metric_list:
-  - metric: !function utils.exact_match
+  - metric: !function utils.exact_match_e2
     aggregation: mean
     higher_is_better: true
 metadata:
