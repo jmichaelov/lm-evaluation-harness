@@ -1,0 +1,19 @@
+group: xstorycloze_nshot
+task:
+  - xstorycloze_ar_nshot
+  - xstorycloze_en_nshot
+  - xstorycloze_es_nshot
+  - xstorycloze_eu_nshot
+  - xstorycloze_hi_nshot
+  - xstorycloze_id_nshot
+  - xstorycloze_my_nshot
+  - xstorycloze_ru_nshot
+  - xstorycloze_sw_nshot
+  - xstorycloze_te_nshot
+  - xstorycloze_zh_nshot
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

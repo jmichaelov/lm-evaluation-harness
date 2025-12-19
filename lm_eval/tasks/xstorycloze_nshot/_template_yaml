@@ -1,0 +1,13 @@
+dataset_path: juletxara/xstory_cloze
+output_type: multiple_choice
+training_split: train
+validation_split: eval
+doc_to_text: !function utils.doc_to_text
+doc_to_target: "{{answer_right_ending-1}}"
+doc_to_choice: "{{[sentence_quiz1, sentence_quiz2]}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
