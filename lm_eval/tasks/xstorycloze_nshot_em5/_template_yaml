@@ -1,0 +1,17 @@
+dataset_path: juletxara/xstory_cloze
+output_type: generate_until
+training_split: train
+validation_split: eval
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.get_target
+generation_kwargs:
+  until: []
+  temperature: 0.0
+  do_sample: false
+  max_gen_toks: 300
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

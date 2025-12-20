@@ -1,3 +1,3 @@
 include: _template_yaml
-task: xstorycloze_id_nshot
+task: xstorycloze_id_nshot_em5
 dataset_name: id

@@ -12,7 +12,7 @@ task:
   - xstorycloze_te_nshot_em
   - xstorycloze_zh_nshot_em
 aggregate_metric_list:
-  - metric: acc
+  - metric: exact_match
     aggregation: mean
     weight_by_size: true
 metadata:

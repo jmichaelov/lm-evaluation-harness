@@ -1,0 +1,19 @@
+group: xstorycloze_nshot_em5
+task:
+  - xstorycloze_ar_nshot_em5
+  - xstorycloze_en_nshot_em5
+  - xstorycloze_es_nshot_em5
+  - xstorycloze_eu_nshot_em5
+  - xstorycloze_hi_nshot_em5
+  - xstorycloze_id_nshot_em5
+  - xstorycloze_my_nshot_em5
+  - xstorycloze_ru_nshot_em5
+  - xstorycloze_sw_nshot_em5
+  - xstorycloze_te_nshot_em5
+  - xstorycloze_zh_nshot_em5
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
