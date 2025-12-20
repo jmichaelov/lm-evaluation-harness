@@ -14,7 +14,7 @@ def doc_to_text(doc):
             ]
             + " "
         )
-        * 2
+        * 1
         + doc["input_sentence_1"]
         + " "
         + doc["input_sentence_2"]
