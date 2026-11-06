@@ -1,0 +1,5 @@
+task: leaderboard_hellaswag
+include: ../hellaswag/hellaswag.yaml
+num_fewshot: 10
+metadata:
+  version: 0
