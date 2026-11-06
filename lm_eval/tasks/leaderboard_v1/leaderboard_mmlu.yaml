@@ -1,0 +1,5 @@
+task: leaderboard_hellaswag
+include: ../mmlu/default/_mmlu.yaml
+num_fewshot: 5
+metadata:
+  version: 0
