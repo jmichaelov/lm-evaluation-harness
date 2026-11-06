@@ -1,4 +1,4 @@
-task: leaderboard_hellaswag
+task: leaderboard_mmlu
 include: ../mmlu/default/_mmlu.yaml
 num_fewshot: 5
 metadata:
